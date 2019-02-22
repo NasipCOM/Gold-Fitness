@@ -3458,10 +3458,12 @@ page loader
   /*
   Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
   */
+  border: 1px solid rgba(0,0,0,0.0000000009);
 }
 
 .img-container {
   transition: transform .1s ease;
+  
 }
 
 .img-container:hover {
@@ -3487,4 +3489,7 @@ page loader
 .img_right{
   margin-left: 5%;
   margin-right: 5%;
+}
+.abc{
+  margin-top: 2%;
 }

@@ -3450,3 +3450,41 @@ page loader
     height: 0%;
   }
 }
+
+
+.card {
+  overflow: hidden;
+  position: relative;
+  /*
+  Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
+  */
+}
+
+.img-container {
+  transition: transform .1s ease;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+  /*
+  Change the scale value as much as you want to change the amount of zoom on hover.
+  */
+}
+
+.card img {
+  opacity: .5;
+  transform: translate(0,0);
+  /*
+  Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+  */
+  transition: opacity .25s ease-in-out;
+}
+
+.card img:hover {
+  opacity: 1;
+}
+
+.img_right{
+  margin-left: 5%;
+  margin-right: 5%;
+}

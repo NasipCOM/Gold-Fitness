@@ -1690,7 +1690,7 @@ mobile menu
 1.6 footer-area start
 =========================================*/
 .footer-area{
-  background: #142440;
+  background: rgb(29, 25, 25);
 }
 .footer-top{
   padding: 60px 0;
@@ -1716,11 +1716,11 @@ mobile menu
   color:#fff;
 }
 .footer-top p {
-    color: #fff;
+    color: rgb(97, 97, 97);
     margin-bottom: 30px;
 }
 .footer-top a{
-  color:#fff;
+  color:rgb(97, 97, 97);
 }
 .Recent-News-area p{
   margin-bottom: 10px;
@@ -1764,7 +1764,7 @@ mobile menu
 }
 .footer-top h3{
   font-size: 25px;
-  color:#fff;
+  color:rgb(97, 97, 97);
   margin-bottom: 20px;
 }
 
@@ -1777,7 +1777,7 @@ mobile menu
     text-align: center;
 }
 .footer-bottom-content span{
-  color:#fff;
+  color:rgb(97, 97, 97);
   font-size: 16px;
   text-align: center;
 }
@@ -3493,3 +3493,4 @@ page loader
 .abc{
   margin-top: 2%;
 }
+

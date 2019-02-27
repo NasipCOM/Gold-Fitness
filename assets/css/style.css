@@ -515,7 +515,7 @@ mobile menu
   text-align:right;
 }
 .btn-style a {
-    background-color:  #c2c03c;
+    background-color:  #c2c03c;   /* #c2c03c*/
     font-size: 15px;
     font-weight: 600;
     color: #fff;

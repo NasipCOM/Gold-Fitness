@@ -375,3 +375,9 @@ $(".img").mousemove(function(event){
   $(".img").mouseout(function(){
     $(this).css("transform", "translate(0px,0px)");
   });
+
+
+
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });

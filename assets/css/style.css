@@ -3519,10 +3519,10 @@ page loader
  */  /* border-radius: 10px; */
   font-size: 1.8rem;
   padding-bottom: 9px;
-  border-bottom: 2px yellow solid;
+  border-bottom: 2px rgb(238, 103, 50) solid;
   font-weight: 900;
   padding-left: 20px;
-  color: rgb(238, 103, 50);
+  color: yellow;
   width: 235px;
   /* background-color:rgba(236, 224, 49, 0.5); */
 }

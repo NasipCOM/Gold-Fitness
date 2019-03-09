@@ -378,6 +378,8 @@ $(".img").mousemove(function(event){
 
 
 
+
+  
   $(document).ready(function(){
     $(".owl-carousel").owlCarousel();
   });

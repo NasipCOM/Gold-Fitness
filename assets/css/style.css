@@ -3507,7 +3507,45 @@ page loader
   /* background-color:rgba(236, 224, 49, 0.5); */
 }
 
-.square img {
-  width: 400px;
-  height: 300px;
+.multiple-items .slick-prev,
+.multiple-items .slick-next {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #959595;
+  border-radius: 5px;
+  z-index: 10;
+  border-radius: 60px;
+  transition: all 0.3s;
+}
+
+.multiple-items .slick-prev:before {
+  font-family: "FontAwesome";
+  content: "\f104";
+  opacity: 1;
+  color: #777;
+}
+
+.multiple-items .slick-next:before {
+  font-family: "FontAwesome";
+  content: "\f105";
+  opacity: 1;
+  color: #777;
+}
+
+.multiple-items .slick-prev:hover,
+.multiple-items .slick-next:hover {
+  background: #c2c03c;
+  border: none;
+}
+
+.multiple-items .slick-prev:hover:before,
+.multiple-items .slick-next:hover:before {
+  color: #fff;
+}
+
+
+
+ .square img {
+  width: 210px;
+  height: 250px;
 }

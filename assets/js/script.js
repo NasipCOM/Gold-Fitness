@@ -370,6 +370,7 @@ $(".img").mouseout(function() {
 $(document).ready(function() {
   $(".multiple-items").slick({
     infinite: true,
+    dots: true,
     slidesToShow: 5,
     slidesToScroll: 5,
     adaptiveHeight: true

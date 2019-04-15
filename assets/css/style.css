@@ -816,6 +816,11 @@ mobile menu
 .about-content .about-icon i {
   color: #c2c03c;
 }
+.about-icon img {
+  width: 100px;
+  height: 100px;
+}
+
 .about-content h2 {
   font-size: 30px;
   font-weight: 700;
@@ -3543,9 +3548,22 @@ page loader
   color: #fff;
 }
 
-
-
- .square img {
+.square img {
   width: 210px;
   height: 250px;
+}
+
+.about-content h2 {
+  color: #000;
+}
+.about-content h5 {
+  color: #000;
+  font-weight: 700;
+}
+.gym{
+  margin-top: -60px;
+}
+.gym img{
+    width: 500px;
+    height: 400px;
 }

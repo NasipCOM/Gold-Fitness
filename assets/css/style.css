@@ -100,7 +100,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  color: #282e3f;
 }
 
 ul {
@@ -421,7 +420,7 @@ a:focus {
   left: 0;
   top: 0;
   width: 100%;
-  /* background:linear-gradient(black,rgba(255, 60, 0, 0.5)); */
+  /* background: black; */
   background: linear-gradient(black, rgba(0, 0, 0, 0.1));
   z-index: 1200;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
@@ -1698,6 +1697,7 @@ mobile menu
 /*=======================================
 1.6 footer-area start
 =========================================*/
+
 .social li a {
   display: block;
   height: 45px;
@@ -1716,8 +1716,6 @@ mobile menu
   color: #fff;
 }
 
-
-
 .instagram ul li {
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
@@ -1727,9 +1725,8 @@ mobile menu
 }
 
 /*============================
-0.1 Home-page-2 start
+0.1 News area
 =================================*/
-
 
 .blog-area.blog-style-2 {
   background: #fff;
@@ -1841,7 +1838,9 @@ mobile menu
   float: left;
   padding-right: 14px;
 }
-
+.blog-content h3 {
+  font-weight: 400;
+}
 /*============================
 0.3 Home-page-3 start
 =================================*/
@@ -1853,7 +1852,6 @@ mobile menu
 /*===================================================
 7.0 contact-page-area-start
 =======================================================*/
-
 
 /*==========================
 page loader
@@ -2082,10 +2080,10 @@ page loader
   color: #000;
   font-weight: 700;
 }
-.gym{
+.gym {
   margin-top: -60px;
 }
-.gym img{
-    width: 500px;
-    height: 400px;
+.gym img {
+  width: 500px;
+  height: 400px;
 }

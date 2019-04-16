@@ -1883,6 +1883,21 @@ mobile menu
 1.6 footer-area start
 =========================================*/
 
+.footer {
+  background-image: url("../images/block19.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.shadow{
+  position: absolute;
+    right: -35px;
+    bottom: -60px;
+    width: 350px;
+    transform: rotate(-18deg);
+    height: 150px;
+    background-color: hsla(0, 0%, 94%, .5);
+}
+
 .social li a {
   display: block;
   height: 45px;
@@ -2350,3 +2365,5 @@ page loader
 }
 
 /* Shopping part */
+
+/*  */

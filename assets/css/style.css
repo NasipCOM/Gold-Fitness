@@ -1358,6 +1358,10 @@ mobile menu
   transition: all 0.3s;
 }
 
+.pricing-area .flex {
+  display: flex;
+  justify-content: space-between;
+}
 .price-item:hover {
   background: #e7f9ff;
 }
@@ -1888,15 +1892,6 @@ mobile menu
   width: 100%;
   height: 100vh;
 }
-.shadow{
-  position: absolute;
-    right: -35px;
-    bottom: -60px;
-    width: 350px;
-    transform: rotate(-18deg);
-    height: 150px;
-    background-color: hsla(0, 0%, 94%, .5);
-}
 
 .social li a {
   display: block;
@@ -2366,4 +2361,38 @@ page loader
 
 /* Shopping part */
 
-/*  */
+/* Abomniment */
+.text_blog {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.aboniment_content {
+  padding: 50px;
+}
+.aboniment_border {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.11);
+}
+.price {
+  margin-top: 30px;
+  color: #000;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.shadow {
+  position: absolute;
+  /*   right: -35px; */
+  bottom: -60px;
+  width: 350px;
+  transform: rotate(-18deg);
+  height: 150px;
+  background-color: hsla(0, 0%, 94%, 0.5);
+}

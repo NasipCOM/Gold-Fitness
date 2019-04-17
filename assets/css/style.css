@@ -68,6 +68,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   color: #333;
+  line-height: 20px;
 }
 
 @media (max-width: 767px) {
@@ -202,7 +203,7 @@ a:focus {
 ====================================*/
 
 .header-top {
-  background: black;
+  background: #333333;
 }
 
 .header-top ul.header-contact {
@@ -1343,7 +1344,7 @@ mobile menu
 1.1 pricing-area start
 ======================================*/
 .pricing-area {
-  padding: 170px 0 100px;
+  padding-top: 170px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1360,7 +1361,6 @@ mobile menu
 
 .pricing-area .flex {
   display: flex;
-  justify-content: space-between;
 }
 .price-item:hover {
   background: #e7f9ff;
@@ -1374,7 +1374,7 @@ mobile menu
 }
 
 .pricing-header {
-  padding: 25px 0 13px;
+  /* padding: 25px 0 13px; */
   background: #c2c03c;
   color: #fff;
   border-top-left-radius: 5px;
@@ -2368,28 +2368,85 @@ page loader
   font-weight: 300;
   text-align: center;
 }
-.aboniment_content {
-  padding: 50px;
-}
+
 .aboniment_border {
+  margin-top: 2em;
+  width: 90%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 10px;
+  padding: 30px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.11);
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 5px solid #e5001d;
+  background-color: #fff;
+  background-image: url("../images/5c1fc80835af3a7501d58d37_wall-clock.svg");
+  background-position: -37px 104%;
+  background-size: 120px;
+  background-repeat: no-repeat;
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, .11);
+
+  transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
 }
+.aboniment_border:hover{
+  transform: translateY(-0.25rem);
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 4px 8px
+        rgba(71, 63, 79, 0.16) 0px 8px 16px;
+}
+.aboniment_img2 {
+  background-image: url("../images/5c1fc5cc35af3a036ed58b72_body-building.svg");
+  background-size: 120px;
+}
+.aboniment_img3 {
+  background-image: url("../images/5c1fccbd4fdbba34cdba2f0f_time-passing.svg");
+  background-size: 120px;
+}
+.aboniment_img4 {
+  background-image: url("../images/5c1fcde8753a4095111171e0_appointment20\(1\).png");
+  background-size: 120px;
+}
+.aboniment_img5 {
+  background-image: url("../images/5c1fcb271141052a58ff579c_clock.png");
+  background-size: 120px;
+}
+
 .price {
-  margin-top: 30px;
+  position: relative;
+    z-index: 1;
   color: #000;
   font-size: 30px;
   line-height: 30px;
   font-weight: 700;
+}
+.text_blog_p {
+  position: relative;
+  z-index: 1;
   color: #000;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
 }
 .shadow {
   position: absolute;
-  /*   right: -35px; */
+  right: -35px;
   bottom: -60px;
   width: 350px;
   transform: rotate(-18deg);

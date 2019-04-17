@@ -1209,6 +1209,7 @@ mobile menu
 }
 
 .counter-content p {
+  font-size: 1.2em;
   color: #fff;
 }
 
@@ -1291,7 +1292,7 @@ mobile menu
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #FAFAFA;
+/*   background-color: #FAFAFA; */
 }
 
 .price-item {
@@ -1893,7 +1894,7 @@ mobile menu
 }
 
 .footer_icons .fa {
-  margin: 0.5em 0 0 0.5em;
+  margin: 0.5em 0 0 0.3em;
   font-size: 1.6em;
 }
 .foot_last {

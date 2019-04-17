@@ -1898,25 +1898,27 @@ mobile menu
 1.6 footer-area start
 =========================================*/
 
-.map iframe {
-  padding: 50px;
-
+.first_row{
+  display: flex;
+  justify-content: space-around;
 }
-
-.main {
-  margin-left: 0;
-  margin-right: 0;
+.first_row:last-child{
+  margin-top: 5em;  
 }
-
-.foot_text {
+.foot{
   color: #000;
-  position: relative;
-  float: left;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+.contact{
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 2em;
+}
 
 .foot_text_blog {
   height: 30px;
@@ -1954,11 +1956,6 @@ mobile menu
 }
 
 .footer {}
-
-.footer_1 {
-  background-image: url("../images/block19.jpg");
-  width: 100%;
-}
 
 .social li a {
   display: block;

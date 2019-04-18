@@ -376,3 +376,8 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
 });
+
+// This function return a full format a phtoto when u click
+function imgWindow(){
+  window.open("image")
+}

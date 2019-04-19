@@ -895,9 +895,9 @@ mobile menu
   background: #e5001d;
 }
 
-.sec-p {
-  padding-left: 30px;
-}
+  /* .sec-p {
+    padding-left: 30px;
+  } */
 
 .about-img img {
   padding-top: 50px;
@@ -1138,10 +1138,7 @@ mobile menu
   color: #fff;
 }
 
-.track-section {
-  padding: 60px 0 70px;
-  background: url(../images/news/bg.jpg) no-repeat center center / cover;
-}
+
 
 .track-section .track form {
   position: relative;
@@ -2380,7 +2377,7 @@ page loader
 
 .aboniment_border {
   margin-top: 0.8em;
-  width: 90%;
+  width: 100%;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;

@@ -2480,3 +2480,40 @@ CHANGES FROM JUMA AREA
 .img {
   cursor: pointer;
 }
+
+.candyShop {
+  background-color: white;
+  max-width: 100%;
+  width: 950px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  border: #000 solid 3px;
+  margin-left: -475px;
+}
+
+.imgShop {
+  width: 400px;
+  height: 300px;
+  margin-top: 8%;
+}
+
+.flagShop {
+  width: 30px;
+  height: 15px;
+}
+.head {
+  position: relative;
+  margin-left: 42%;
+  margin-top: -24%;
+}
+
+.text {
+  padding-top: 30%;
+}
+
+.tableShop {
+  position: relative;
+  margin-left: 56%;
+  margin-top: -25%;
+}

@@ -1288,6 +1288,7 @@ mobile menu
   flex-direction: column;
   width: 100%;
   height: 100%;
+  background-color: #F6F8F9;
   position: relative;
 /*   background-color: #FAFAFA; */
 }
@@ -1838,6 +1839,7 @@ mobile menu
 }
 .footer{
   background-color: #F6F8F9;
+  
   padding-top: 4em;
 }
 .foot {

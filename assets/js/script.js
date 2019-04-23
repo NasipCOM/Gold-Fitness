@@ -409,3 +409,7 @@ $(document).ready(function() {
 function imgWindow() {
   window.open("image");
 }
+
+
+//botton
+

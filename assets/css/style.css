@@ -338,6 +338,11 @@ a:focus {
   color: yellow;
   margin-top: 27px;
 }
+.logo_1 {
+  font-size: 30px;
+  color: rgb(5, 5, 5);
+  margin-top: 27px;
+}
 
 .main-menu .submenu li a {
   padding: 10px 15px 10px 0px;
@@ -438,6 +443,105 @@ a:focus {
   padding: 2px 15px;
 }
 
+.main-menu1 .submenu li a {
+  padding: 10px 15px 10px 0px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main-menu1 nav ul {
+  text-align: right;
+}
+
+.main-menu1 nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-menu1 nav ul li a:last-child {
+  padding-right: 0;
+}
+
+.main-menu1 nav ul li {
+  padding: 35px 18px 0;
+}
+
+.main-menu1 nav ul li a {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 33px;
+}
+
+.main-menu1 nav ul li a:before {
+  position: absolute;
+  content: "";
+  left: -20px;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #222;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.main-menu1 nav ul li a:hover:before {
+  opacity: 1;
+  left: 0px;
+}
+
+.main-menu1 nav ul li > ul li a {
+  color: #333;
+}
+
+.main-menu1 nav ul li:hover > a,
+.main-menu1 nav ul li.active > a {
+  color: #c2c03c;
+}
+
+.main-menu1 .submenu {
+  position: absolute;
+  left: 18px;
+  top: 90px;
+  z-index: 999;
+  width: 235px;
+  padding: 10px 0px 15px;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform: scaleY(0);
+  transform-origin: top;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.main-menu1 nav > ul > li:hover > .submenu {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.main-menu1 .submenu li {
+  display: block;
+}
+
+.main-menu1 .submenu li a:before {
+  display: none;
+}
+
+.main-menu1 .submenu li {
+  padding: 2px 15px;
+}
+
 .sticky {
   position: fixed;
   left: 0;
@@ -451,6 +555,7 @@ a:focus {
   -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
 }
+
 .sticky ul {
   color: black;
 }
@@ -950,11 +1055,11 @@ mobile menu
   background: #f5f5f5;
 }
 
-.section-title span, .section-title1 span {
+.section-title span,
+.section-title1 span {
   font-size: 16px;
   color: #c2c03c;
 }
-
 
 .section-title h2 {
   font-size: 36px;
@@ -972,11 +1077,11 @@ mobile menu
   padding-bottom: 20px;
   margin-bottom: 30px;
 
-
   position: relative;
 }
 
-.section-title h2:before, .section-title1 h2:before {
+.section-title h2:before,
+.section-title1 h2:before {
   content: "";
   position: absolute;
   left: 47%;
@@ -2237,6 +2342,20 @@ page loader
   width: 235px;
   /* background-color:rgba(236, 224, 49, 0.5); */
 }
+.logo_1 p {
+  padding-top: 9px;
+  /*   border: 1px #c2c03c solid;
+ */
+  /* border-radius: 10px; */
+  font-size: 1.8rem;
+  padding-bottom: 9px;
+  border-bottom: 2px #e5001d solid;
+  font-weight: 900;
+  padding-left: 20px;
+  color: rgb(27, 23, 23);
+  width: 235px;
+  /* background-color:rgba(236, 224, 49, 0.5); */
+}
 
 /* Slick Slider  */
 
@@ -2244,7 +2363,7 @@ page loader
   text-align: left;
   box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.08);
   /* padding: 0 0.5em 0 0.5em; */
-  margin: 10px;
+  margin: 0.6em;
 }
 
 .square img {
@@ -2259,9 +2378,11 @@ page loader
   height: 2.8em;
   margin-left: 1.1em;
   font-size: 1.1em;
+  padding-top: 1em;
 }
 
 .slick_text {
+  padding-top: 1em;
   margin-left: 1.4em;
   color: #657985;
   font-weight: 400;
@@ -2270,6 +2391,10 @@ page loader
   text-overflow: ellipsis;
   display: block;
   font-size: 0.9em;
+}
+.slick_img img{
+  width: 100%;
+  height: 180px;
 }
 
 .multiple-items .slick-prev,
@@ -2450,6 +2575,9 @@ SCROLLBAR
 /*============================
 ENJOY SECTIONS
 =================================*/
+#images {
+  padding-bottom: 100px;
+}
 
 /*============================
 CHANGES FROM JUMA AREA
@@ -2457,44 +2585,52 @@ CHANGES FROM JUMA AREA
 .img {
   cursor: pointer;
 }
-
-.candyShop {
-  background-color: white;
-  max-width: 100%;
-  width: 950px;
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  border: #000 solid 3px;
-  margin-left: -475px;
+.shop_bg {
+  background-color: #f6f8f9;
+  color: #fff;
+  background-size: cover;
+  padding-top: 10em;
+  color: #000;
 }
 
+.imgShop img {
+  width: 100%;
+}
 .imgShop {
-  width: 400px;
-  height: 300px;
-  margin-top: 8%;
-}
-
-.flagShop {
-  width: 30px;
-  height: 15px;
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05); */
 }
 .head {
-  position: relative;
-  margin-left: 42%;
-  margin-top: -24%;
+  font-weight: 900;
+  line-height: 1.4;
 }
-
+.flagShop {
+  width: 50px;
+  height: 50px;
+}
+.margin-top {
+  margin-top: 13px;
+}
+.combain {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #657985;
+  font-weight: 500;
+}
+.combain span {
+  font-size: 1.8em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+strong {
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
 .text {
-  padding-top: 30%;
-}
-
-.tableShop {
-  position: relative;
-  margin-left: 56%;
-  margin-top: -25%;
-}
-
-#images {
-  padding-bottom: 100px;
+  margin-top: 3rem;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 0.9rem;
 }

@@ -867,7 +867,8 @@ mobile menu
 0.6 about-area start
 =====================================*/
 .about-area {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .about-content .about-icon i {
@@ -895,14 +896,6 @@ mobile menu
   width: 50px;
   height: 5px;
   background: #e5001d;
-}
-
-/* .sec-p {
-    padding-left: 30px;
-  } */
-
-.about-img img {
-  padding-top: 50px;
 }
 
 .about-content p {
@@ -957,10 +950,11 @@ mobile menu
   background: #f5f5f5;
 }
 
-.section-title span {
+.section-title span, .section-title1 span {
   font-size: 16px;
   color: #c2c03c;
 }
+
 
 .section-title h2 {
   font-size: 36px;
@@ -975,11 +969,14 @@ mobile menu
   font-size: 36px;
   font-weight: 700;
   color: #333;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+
+
   position: relative;
 }
 
-.section-title h2:before {
+.section-title h2:before, .section-title1 h2:before {
   content: "";
   position: absolute;
   left: 47%;
@@ -1770,7 +1767,7 @@ mobile menu
 1.5 features-area start
 ===========================================*/
 .features-area {
-  padding: 80px 0 150px 0 ; 
+  padding: 80px 0 150px 0;
   background-color: #f6f8f9;
 }
 /*=======================================
@@ -2193,10 +2190,10 @@ page loader
 
 .img-container {
   transition: transform 0.1s ease;
-  box-shadow: rgba(46, 41, 51, 0.08) 0px 1px 2px,
-    rgba(71, 63, 79, 0.08) 0px 2px 4px;
 }
-
+.img-container img {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0 15);
+}
 .img-container:hover {
   transform: scale(1.1);
   /*
@@ -2277,8 +2274,8 @@ page loader
 
 .multiple-items .slick-prev,
 .multiple-items .slick-next {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #959595;
   border-radius: 5px;
   z-index: 10;
@@ -2329,15 +2326,19 @@ page loader
   font-weight: 700;
 }
 
-.gym {
-  margin-top: -60px;
-}
-
 .gym img {
-  width: 500px;
-  height: 400px;
+  width: 100px;
+  height: 100px;
 }
 
+.img-out {
+  margin-top: 3.5em;
+}
+.img-out img {
+  border-radius: 10px;
+  border-bottom: 5px #e5001d solid;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0 15);
+}
 /* Shopping part */
 
 /* Abomniment */
@@ -2494,6 +2495,6 @@ CHANGES FROM JUMA AREA
   margin-top: -25%;
 }
 
- #images{
+#images {
   padding-bottom: 100px;
 }

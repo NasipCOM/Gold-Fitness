@@ -349,7 +349,11 @@ a:focus {
   color: #fff;
   font-size: 14px;
 }
-
+span .submenu li a {
+  padding: 10px 15px 10px 0px;
+  color: #000;
+  font-size: 14px;
+}
 .main-menu nav ul {
   text-align: right;
 }
@@ -377,8 +381,29 @@ a:focus {
   position: relative;
   padding-bottom: 33px;
 }
+span .main-menu nav ul li a {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 33px;
+}
 
 .main-menu nav ul li a:before {
+  position: absolute;
+  content: "";
+  left: -20px;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.5s;
+}
+span .main-menu nav ul li a:before {
   position: absolute;
   content: "";
   left: -20px;
@@ -423,6 +448,25 @@ a:focus {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+span .main-menu .submenu {
+  position: absolute;
+  left: 18px;
+  top: 90px;
+  z-index: 999;
+  width: 235px;
+  padding: 10px 0px 15px;
+  background: #000;
+  text-align: left;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform: scaleY(0);
+  transform-origin: top;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 
 .main-menu nav > ul > li:hover > .submenu {
   -webkit-transform: scaleY(1);
@@ -440,105 +484,6 @@ a:focus {
 }
 
 .main-menu .submenu li {
-  padding: 2px 15px;
-}
-
-.main-menu1 .submenu li a {
-  padding: 10px 15px 10px 0px;
-  color: #fff;
-  font-size: 14px;
-}
-
-.main-menu1 nav ul {
-  text-align: right;
-}
-
-.main-menu1 nav ul li {
-  display: inline-block;
-  position: relative;
-}
-
-.main-menu1 nav ul li a:last-child {
-  padding-right: 0;
-}
-
-.main-menu1 nav ul li {
-  padding: 35px 18px 0;
-}
-
-.main-menu1 nav ul li a {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-  color: #222;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  position: relative;
-  padding-bottom: 33px;
-}
-
-.main-menu1 nav ul li a:before {
-  position: absolute;
-  content: "";
-  left: -20px;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #222;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.main-menu1 nav ul li a:hover:before {
-  opacity: 1;
-  left: 0px;
-}
-
-.main-menu1 nav ul li > ul li a {
-  color: #333;
-}
-
-.main-menu1 nav ul li:hover > a,
-.main-menu1 nav ul li.active > a {
-  color: #c2c03c;
-}
-
-.main-menu1 .submenu {
-  position: absolute;
-  left: 18px;
-  top: 90px;
-  z-index: 999;
-  width: 235px;
-  padding: 10px 0px 15px;
-  background: #fff;
-  text-align: left;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
-  -webkit-transform: scaleY(0);
-  -ms-transform: scaleY(0);
-  -o-transform: scaleY(0);
-  transform: scaleY(0);
-  transform-origin: top;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.main-menu1 nav > ul > li:hover > .submenu {
-  -webkit-transform: scaleY(1);
-  -ms-transform: scaleY(1);
-  -o-transform: scaleY(1);
-  transform: scaleY(1);
-}
-
-.main-menu1 .submenu li {
-  display: block;
-}
-
-.main-menu1 .submenu li a:before {
-  display: none;
-}
-
-.main-menu1 .submenu li {
   padding: 2px 15px;
 }
 
@@ -1386,7 +1331,6 @@ mobile menu
 ======================================*/
 
 .pricing-area {
-  padding-top: 170px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -2392,7 +2336,7 @@ page loader
   display: block;
   font-size: 0.9em;
 }
-.slick_img img{
+.slick_img img {
   width: 100%;
   height: 180px;
 }

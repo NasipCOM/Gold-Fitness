@@ -2516,6 +2516,15 @@ SCROLLBAR
   display: none;
 } */
 
+.about_product{
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: .9rem;
+  color: #212529;
+  margin-left: 1.4em;
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
 /*============================
 ENJOY SECTIONS
 =================================*/

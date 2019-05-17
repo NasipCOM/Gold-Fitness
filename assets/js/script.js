@@ -406,7 +406,7 @@ $(document).ready(function() {
 });
 
 // This function return a full format a phtoto when u click
-function imgWindow() {
+/* function imgWindow() {
   window.open("image");
 }
 
@@ -432,3 +432,6 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+$(document).ready(function() {
+  $('.myImg').magnificPopup({type:'image'});
+}); */

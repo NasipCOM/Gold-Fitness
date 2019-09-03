@@ -2377,6 +2377,9 @@ page loader
   background: #c2c03c;
   border: none;
 }
+.carusel{
+  width: 95%;
+}
 /* 
   .multiple-items .slick-prev:hover,
   .multiple-items .slick-next:hover {

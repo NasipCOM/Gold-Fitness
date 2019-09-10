@@ -678,7 +678,6 @@ mobile menu
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: 840px;
   overflow: hidden;
 }
 
@@ -704,7 +703,7 @@ mobile menu
 }
 
 .hero .slide {
-  height: 840px;
+  height: 130vh;
   position: relative;
   background-repeat: no-repeat;
   position: relative;
@@ -1228,7 +1227,7 @@ mobile menu
 /*==========================================
 1.0 counter-area start
 ===========================================*/
-.counter-area {
+/* .counter-area {
   padding: 135px 0 0;
   background: url(../images/counter/2.jpg) no-repeat center top / cover;
   position: relative;
@@ -1327,7 +1326,7 @@ mobile menu
   height: 3px;
   background: #e5001d;
 }
-
+ */
 /*====================================
 1.1 pricing-area start
 ======================================*/

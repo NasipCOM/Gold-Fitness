@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NasipCOM/Gold-Fitness#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.2.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.13.0"
   },

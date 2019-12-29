@@ -1,12 +1,18 @@
 var gulp = require('gulp');
-// var sass = require('gulp-sass');
 var uglifycss = require('gulp-uglifycss');
+const imagemin = require('gulp-imagemin');
 
-// gulp.task('scss', function () {
-//     return gulp.src('./assets/scss/*.scss')
-//       .pipe(sass().on('error', sass.logError))
-//       .pipe(gulp.dest('./css1'));
-//   });
+gulp.task('img', function () {
+	gulp.src('assets/images1/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('assets/imgages'))
+});
+gulp.task('imgage', function () {
+	gulp.src('assets/images1/*/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('assets/imgages'))
+});
+
 
 
   gulp.task('css', function () {

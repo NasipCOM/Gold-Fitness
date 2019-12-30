@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var uglifycss = require('gulp-uglifycss');
 const imagemin = require('gulp-imagemin');
+var nunjucks = require('gulp-nunjucks-html');
 
 gulp.task('img', async function () {
 	gulp.src("assets/images_original/**/*")
@@ -21,8 +22,4 @@ gulp.task('css', async function () {
     .pipe(gulp.dest('./assets/mincss/'));
 });
 
-// gulp.task('watch',async function(){
-//   gulp.watch('./assets/css/style.css', 'css');
-//   gulp.watch('./assets/images_original', 'img');
-// });
 gulp.task('default', gulp.parallel('css', 'img', 'image'));
